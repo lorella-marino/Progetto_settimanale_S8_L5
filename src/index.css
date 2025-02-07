@@ -62,3 +62,9 @@ a:hover {
   background-color: transparent;
   border-color: rgb(144, 144, 144);
 }
+
+@media screen and (max-width: 768px) {
+  .link {
+    display: none !important;
+  }
+}

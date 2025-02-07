@@ -18,10 +18,10 @@ const MyNavbar = () => {
           <Nav.Link href="#movies" className="fs-6 text-white fw-semibold mx-2">
             Movies
           </Nav.Link>
-          <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
+          <Nav.Link href="#" className="link fs-6 text-secondary fw-semibold mx-2">
             Recently Added
           </Nav.Link>
-          <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
+          <Nav.Link href="#" className="link fs-6 text-secondary fw-semibold mx-2">
             My List
           </Nav.Link>
         </Nav>
@@ -58,7 +58,7 @@ const MyNavbar = () => {
                 />
                 Profilo2
               </Dropdown.Item>
-              <Dropdown.Item href="./EditProfile.html">Edit Profile</Dropdown.Item>
+              <Dropdown.Item href="#">Edit Profile</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
