@@ -1,11 +1,11 @@
 import { Container, Dropdown, Button } from "react-bootstrap";
 import { BsTextLeft, BsGridFill } from "react-icons/bs";
 
-const SectionTvShows = () => {
+const SectionMovies = () => {
   return (
     <section>
-      <Container id="tvshows" className="d-flex text-white align-items-center">
-        <h3>TV Shows</h3>
+      <Container id="movies" className="d-flex text-white align-items-center">
+        <h3>Movies</h3>
 
         <Dropdown className="mx-4">
           <Dropdown.Toggle variant="outline-light" className="rounded-1">
@@ -31,4 +31,4 @@ const SectionTvShows = () => {
   );
 };
 
-export default SectionTvShows;
+export default SectionMovies;

@@ -12,10 +12,10 @@ const MyNavbar = () => {
           <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
             Home
           </Nav.Link>
-          <Nav.Link href="#tvshows" className="fs-6 text-white active mx-2">
+          <Nav.Link href="#" className="fs-6 text-secondary active mx-2">
             Tv Shows
           </Nav.Link>
-          <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
+          <Nav.Link href="#movies" className="fs-6 text-white fw-semibold mx-2">
             Movies
           </Nav.Link>
           <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
