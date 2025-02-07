@@ -10,6 +10,7 @@ import { Container } from "react-bootstrap";
 import { Component } from "react";
 import Loading from "./components/Loading";
 import Error from "./components/Error";
+/* import EditProfile from "./components/EditProfile"; */ //Pagina Edit Profile
 
 class App extends Component {
   state = {
@@ -37,6 +38,7 @@ class App extends Component {
             <HPGallery />
             <LOTRGallery />
             <ShrekGallery />
+            {/*<EditProfile />*/} {/* Pagina Edit Profile */}
           </>
         )}
         <MyFooter />
