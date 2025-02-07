@@ -21,20 +21,15 @@ Footer .fs-6 {
   font-size: 0.9rem !important;
 }
 
-.dropdown-toggle:focus-within,
-.dropdown-toggle:active,
-.dropdown-toggle:hover {
+Dropdown .dropdown-toggle:focus-within,
+Dropdown .dropdown-toggle:active,
+Dropdown .dropdown-toggle:hover {
   background: transparent !important;
   outline: none;
   color: white;
 }
 
-.dropdown-menu {
-  background-color: #212529 !important;
-  border: none !important;
-}
-
-.dropdown:focus-within .dropdown-menu {
+Dropdown .dropdown:focus-within .dropdown-menu {
   background-color: #212529 !important;
 }
 
